@@ -1,0 +1,47 @@
+body {
+	font-family: "Helvetica, Tahoma, Comic Sans";
+	background-color: Gray;
+	margin: 0 auto;
+	width: 768px;
+	border-left: 4px double White;
+	padding-left: 78px;
+	color: White;
+}
+
+h1 {
+	text-shadow: 0 1px 1px White;
+	margin: 0;
+	font-size: 4em;
+	margin-bottom: 0px;
+	height: 1em;
+	color: Black;
+}
+
+.footnote {
+	text-shadow: 0 1px 1px Black;
+	color: White;
+	padding-left: 25px;
+}
+
+.side {
+	float: right;
+	width: 240px;
+	text-overflow: hidden;
+}
+
+canvas {
+	border: 1px solid White;
+	box-shadow: 0 0 10px 1px rgb(15,15,15);
+	display: block;
+}
+
+input[type='text'] {
+	border-radius: 4px;
+	padding: 8px;
+	font-size: 1em;
+	outline: none;
+	border: none;
+	box-shadow: 0 0 10px 1px rgb(15,15,15);
+	margin-top: 10px;
+	margin-left: 50px;
+}
